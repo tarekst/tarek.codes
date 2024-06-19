@@ -1,4 +1,4 @@
-import {Card, CardBody, CardHeader, CardFooter, Link, Chip, Image, Tabs, Tab} from "@nextui-org/react";
+import {Card, CardBody, CardHeader, CardFooter, Link, Chip, Image, Tabs, Tab, Divider} from "@nextui-org/react";
 
 export default function Home() {
     return (
@@ -44,45 +44,57 @@ export default function Home() {
                         <CardHeader>
                             <div className="flex flex-col pl-3">
                                 <p className="text-large">GVT Startup</p>
-                                <p className="text-md text-default-500 flex gap-3 mt-2">
-                                    <Chip color="success">Active</Chip>
-                                    <Chip color="default">Closed Source</Chip>
-                                </p>
                             </div>
                         </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="success">Active</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
                     </Card>
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
-                                <p className="text-large">Distributed Cache Synchronizer</p>
-                                <p className="text-md text-default-500 flex gap-3 mt-2">
-                                    <Chip color="success">Active</Chip>
-                                    <Chip color="default">Closed Source</Chip>
-                                </p>
+                                <p className="text-large">Harmonix Java Framework</p>
                             </div>
                         </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="success">Active</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
                     </Card>
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
                                 <p className="text-large">E-Commerce Flutter App</p>
-                                <p className="text-md text-default-500 flex gap-3 mt-2">
-                                    <Chip color="warning">Paused</Chip>
-                                    <Chip color="default">Closed Source</Chip>
-                                </p>
                             </div>
                         </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="warning">Paused</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
                     </Card>
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
                                 <p className="text-large">ERP System</p>
-                                <p className="text-md text-default-500 flex gap-3 mt-2">
-                                    <Chip color="secondary">Queued</Chip>
-                                    <Chip color="default">Closed Source</Chip>
-                                </p>
                             </div>
                         </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="secondary">Queued</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
                     </Card>
                 </div>
             </div>
