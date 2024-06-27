@@ -43,7 +43,7 @@ export default function Home() {
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
-                                <p className="text-large">GVT Startup</p>
+                                <p className="text-large">FVT Startup</p>
                             </div>
                         </CardHeader>
                         <Divider/>
