@@ -68,6 +68,34 @@ export default function Home() {
                             </div>
                         </CardBody>
                     </Card>
+                    <Card className="w-96">
+                        <CardHeader>
+                            <div className="flex flex-col pl-3">
+                                <p className="text-large">E-Commerce Flutter App</p>
+                            </div>
+                        </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="warning">Paused</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
+                    </Card>
+                    <Card className="w-96">
+                        <CardHeader>
+                            <div className="flex flex-col pl-3">
+                                <p className="text-large">ERP System</p>
+                            </div>
+                        </CardHeader>
+                        <Divider/>
+                        <CardBody>
+                            <div className="text-md text-default-500 flex gap-3">
+                                <Chip color="secondary">Queued</Chip>
+                                <Chip color="default">Closed Source</Chip>
+                            </div>
+                        </CardBody>
+                    </Card>
                 </div>
             </div>
         </main>
