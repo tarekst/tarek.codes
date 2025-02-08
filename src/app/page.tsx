@@ -43,7 +43,7 @@ export default function Home() {
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
-                                <p className="text-large">GVT Startup</p>
+                                <p className="text-large">WhiteBreach Security</p>
                             </div>
                         </CardHeader>
                         <Divider/>
@@ -57,41 +57,13 @@ export default function Home() {
                     <Card className="w-96">
                         <CardHeader>
                             <div className="flex flex-col pl-3">
-                                <p className="text-large">Harmonix Java Framework</p>
+                                <p className="text-large">Nyx Messenger</p>
                             </div>
                         </CardHeader>
                         <Divider/>
                         <CardBody>
                             <div className="text-md text-default-500 flex gap-3">
                                 <Chip color="success">Active</Chip>
-                                <Chip color="default">Closed Source</Chip>
-                            </div>
-                        </CardBody>
-                    </Card>
-                    <Card className="w-96">
-                        <CardHeader>
-                            <div className="flex flex-col pl-3">
-                                <p className="text-large">E-Commerce Flutter App</p>
-                            </div>
-                        </CardHeader>
-                        <Divider/>
-                        <CardBody>
-                            <div className="text-md text-default-500 flex gap-3">
-                                <Chip color="warning">Paused</Chip>
-                                <Chip color="default">Closed Source</Chip>
-                            </div>
-                        </CardBody>
-                    </Card>
-                    <Card className="w-96">
-                        <CardHeader>
-                            <div className="flex flex-col pl-3">
-                                <p className="text-large">ERP System</p>
-                            </div>
-                        </CardHeader>
-                        <Divider/>
-                        <CardBody>
-                            <div className="text-md text-default-500 flex gap-3">
-                                <Chip color="secondary">Queued</Chip>
                                 <Chip color="default">Closed Source</Chip>
                             </div>
                         </CardBody>
