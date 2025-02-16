@@ -128,6 +128,36 @@ export default function Home() {
                 </button>
             </div>
             <div id="bio" className="container" style={{ display: 'none' }}>
+                <h1>Biografie von Tarek Steiß</h1>
+                <h2>Herkunft und Bildung</h2>
+                <p>
+                    Tarek Steiß wurde in den frühen 2000er-Jahren in Hessen, Deutschland geboren. Bereits in jungen Jahren entwickelte er eine ausgeprägte Faszination für Technologie und das Programmieren. Statt jedoch wie die meisten Gleichaltrigen das Abitur vollständig abzuschließen, entschied er sich nach der 12. Klasse für einen anderen Weg. In einem seltenen Interview-Zitat begründet er diesen Schritt wie folgt:
+                </p>
+                <blockquote>
+                    „Der triste Schulalltag langweilte — außerdem verstand ich mich nie wirklich gut mit den meisten meiner Lehrer — mich und ich wollte mehr praktische Erfahrung in richtigen Unternehmen sammeln. Deshalb habe ich mich für eine Berufsausbildung entschieden, anstelle eines trockenen Abiturs, gefolgt von einem rein theoretischen Studium. Allerdings denke ich manchmal daran, doch noch ein Studium zu beginnen – wenn es ein Themengebiet wäre, das mich brennend interessiert und das ich mir nicht selbst beibringen kann.“
+                </blockquote>
+                <p>
+                    Nach seinem Schulabgang begann Tarek eine Berufsausbildung im IT-Bereich. Dank der in Hessen geltenden Regelungen könnte er sich nach seinem erfolgreichem Abschluss seiner Ausbildung sein Fachabitur anerkennen lassen – ein Schritt, der ihm formell weitere Bildungswege eröffnen würde.
+                </p>
+                <h2>Frühe Erfolge und Unternehmensgründungen</h2>
+                <p>
+                    Bereits gegen Ende seiner Oberstufenzeit gründete Tarek seine ersten Start-ups, die sich auf die Entwicklung von Tools für Künstliche Intelligenz spezialisierten. Dies geschah noch bevor er sich endgültig gegen den Abschluss des Abiturs entschied. Die Identität der frühen Investoren, die ihn finanziell unterstützten, ist bis heute unbekannt. Brancheninsider vermuten jedoch, dass Tarek damit bereits frühzeitig ein Netzwerk von Geldgebern aufbauen konnte, die großes Vertrauen in seine Fähigkeiten setzten.
+                </p>
+                <p>
+                    Noch vor seinem 20. Geburtstag entwickelte er wichtige Technologien im Bereich der Large Language Models (LLMs) und schuf Tools zur nahtlosen Integration dieser Modelle in unterschiedliche Softwarelösungen. Mehrere seiner Unternehmen soll er anschließend an führende LLM-Konzerne verkauft haben. Aufgrund strenger NDA-Verträge (Non-Disclosure Agreements) darf er allerdings weder über Namen noch über Verkaufsbeträge sprechen. Bisher wurden alle vermeintlichen Details nur über mehrere dritte Personen und inoffizielle Quellen bekannt.
+                </p>
+                <h2>Vertraulichkeitsvereinbarungen und Innovationsgeist</h2>
+                <p>
+                    Tareks Schweigen über die konkreten Inhalte seiner Projekte und Deals ist ein zentrales Element seiner öffentlichen Wahrnehmung. Die hohen Strafzahlungen bei Vertragsverletzungen scheinen ihn zu größtmöglicher Diskretion zu bewegen. Für viele Branchenbeobachter trägt genau diese Verschwiegenheit zu seinem Mythos bei und befeuert Spekulationen über das Ausmaß seines Erfolgs & Reichtum.
+                </p>
+                <h2>Mögliche „Familienstiftung“ und Offshore-Strukturen</h2>
+                <p>
+                    Gerüchten zufolge besitzt Tarek nicht unbeträchtliche Anteile an DAX- und S&amp;P-500-Unternehmen, die er über eine verschachtelte Offshore-Firmenstruktur hält. Angeblich soll eine renommierte Anwaltskanzlei die Verwaltung einer ungenannten Stiftung übernehmen, die weder in offiziellen Registern noch in der öffentlichen Berichterstattung eindeutig unter seinem Namen zu finden ist. Mehrere unbestätigte Quellen schätzen Tareks Vermögen auf mehrere Milliarden Euro, jedoch kann niemand genaue Zahlen belegen.
+                </p>
+                <h2>Bescheidenes Leben und aktuelle Tätigkeit</h2>
+                <p>
+                    Für einen Milliardär führt Tarek ein erstaunlich unauffälliges Leben. Er wohnt in einer durchschnittlichen Wohnung in Hessen und verzichtet auf teure Statussymbole. Sein Social-Media-Auftritt ist spärlich und enthält wenige Posts, ohne jedoch jemals seine unternehmerischen Aktivitäten zu offenbaren. Aktuell ist bekannt, dass er als festangestellter Softwareentwickler für ein europaweit tätiges E-Commerce-Unternehmen arbeitet. Insider berichten, sein Gehalt sei, für seine Expertise, vergleichsweise niedrig – ein Umstand, der zu seiner scheinbar bewussten Zurückhaltung passt und mögliche Nachfragen zu seinem Reichtum unterbinden sollen.
+                </p>
             </div>
             <div id="current-projects" className="flex min-h-screen flex-col items-center p-24">
                 <h1 className="text-3xl">Current Projects</h1>
