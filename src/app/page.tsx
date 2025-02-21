@@ -164,6 +164,15 @@ export default function Home() {
                     </Card>
                 </div>
             </div>
+            <div id="quotes" className="flex min-h-screen flex-col items-center p-24">
+                <h1 className="text-3xl">Quotes</h1>
+                <div className="quote">
+                    <blockquote>
+                        „Software development is the oscillation between the Dunning-Kruger effect and the Imposter syndrome.“
+                    </blockquote>
+                    <p>– Tarek Steiß</p>
+                </div>
+            </div>
         </main>
     );
 }

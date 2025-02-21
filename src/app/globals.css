@@ -26,6 +26,27 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.quote {
+  @apply pt-12 flex flex-col gap-3;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-700;
+}
+
+.quote p {
+  @apply text-right text-sm text-gray-500;
+}
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    @apply border-gray-600 text-gray-300;
+  }
+  .quote p {
+    @apply text-gray-400;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
