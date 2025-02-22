@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.quotes {
+  @apply flex flex-col items-center p-20;
+}
+
 .quote {
   @apply pt-12 flex flex-col gap-3;
 }
