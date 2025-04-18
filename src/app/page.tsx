@@ -76,7 +76,7 @@ export default function Home() {
                         <Card className="w-80 md:w-[500px] lg:w-[700px]">
                             <CardHeader>
                                 <div className="flex flex-col pl-3">
-                                    <Link isBlock color="foreground" className="text-large">
+                                    <Link isBlock showAnchorIcon color="foreground" className="text-large" href="https://github.com/tarekst/emoji-steg">
                                         emoji-steg
                                     </Link>
                                 </div>
