@@ -99,7 +99,7 @@ export default function Home() {
                             <CardHeader>
                                 <div className="flex flex-col pl-3">
                                     <Link isBlock color="foreground" className="text-large">
-                                        Nyx Messenger
+                                        web-browsing-mcp-server
                                     </Link>
                                 </div>
                             </CardHeader>
