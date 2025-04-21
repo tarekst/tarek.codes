@@ -106,7 +106,7 @@ export default function Home() {
                             <Divider/>
                             <CardBody>
                                 <div className="text-md text-default-500 flex gap-3">
-                                    <Chip color="secondary" variant="faded" startContent={<PlanningIcon size={17} />}>Planning</Chip>
+                                    <Chip color="success" variant="faded" startContent={<ProgressIcon size={17} />}>Active</Chip>
                                     <Chip color="default" startContent={<ClosedIcon size={15} />}>Closed Source</Chip>
                                 </div>
                             </CardBody>
