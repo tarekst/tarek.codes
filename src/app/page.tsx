@@ -4,6 +4,7 @@ import {ClosedIcon, PlanningIcon, ProgressIcon, UpArrowIcon} from "@/app/icons";
 import ScrollButton from "@/app/scroll-button";
 import Navigation from "@/app/navigation";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
+import DemoButton from "@/app/components/DemoButton";
 
 export default function Home() {
     return (
@@ -75,10 +76,16 @@ export default function Home() {
                         </Card>
                         <Card className="w-80 md:w-[500px] lg:w-[700px]">
                             <CardHeader>
-                                <div className="flex flex-col pl-3">
-                                    <Link isBlock showAnchorIcon color="foreground" className="text-large" href="https://github.com/tarekst/emoji-steg">
+                                <div className="flex flex-row pl-3 w-full justify-between">
+                                    <Link
+                                        isBlock
+                                        showAnchorIcon
+                                        color="foreground"
+                                        className="text-large"
+                                        href="https://github.com/tarekst/emoji-steg">
                                         emoji-steg
                                     </Link>
+                                    <DemoButton />
                                 </div>
                             </CardHeader>
                             <Divider/>

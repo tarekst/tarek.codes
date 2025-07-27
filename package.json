@@ -14,7 +14,8 @@
     "@heroui/tabs": "2.2.8",
     "@heroui/theme": "2.4.6",
     "framer-motion": "^11.0.8",
-    "next": "15.1.2",
+    "emoji-steg": "github:tarekst/emoji-steg",
+    "next": "15.3.3",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18"
