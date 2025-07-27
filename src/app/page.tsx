@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, CardBody, CardHeader, CardFooter, Link, Chip, Image, Divider} from "@heroui/react";
-import {ClosedIcon, PlanningIcon, ProgressIcon, UpArrowIcon} from "@/app/icons";
+import {ClosedIcon, ProgressIcon, UpArrowIcon} from "@/app/icons";
 import ScrollButton from "@/app/scroll-button";
 import Navigation from "@/app/navigation";
 import AnimatedBackground from "@/app/components/AnimatedBackground";

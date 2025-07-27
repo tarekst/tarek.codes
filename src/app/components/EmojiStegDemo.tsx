@@ -189,7 +189,7 @@ const EmojiStegDemo: React.FC<EmojiStegDemoProps> = ({ isOpen, onClose }) => {
                                                 <Button
                                                     size="sm"
                                                     variant="light"
-                                                    onClick={() => handleCopy(encodedMessage)}
+                                                    onPress={() => handleCopy(encodedMessage)}
                                                 >
                                                     Kopieren
                                                 </Button>
