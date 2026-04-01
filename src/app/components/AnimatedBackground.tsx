@@ -16,19 +16,18 @@ const AnimatedBackground: React.FC = () => {
     const lines: MovingLine[] = [];
     let lastTime: number | null = null;
 
-    // Funktion zur Darkmode-Erkennung
+    // Funktion zur Darkmode-Erkennung (liest .dark Klasse von <html>, gesetzt durch next-themes)
     useEffect(() => {
         const checkDarkMode = () => {
-            const darkModeOn = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            setIsDarkMode(darkModeOn);
+            setIsDarkMode(document.documentElement.classList.contains('dark'));
         };
 
         checkDarkMode();
-        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        mediaQuery.addEventListener('change', checkDarkMode);
+        const observer = new MutationObserver(checkDarkMode);
+        observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 
         return () => {
-            mediaQuery.removeEventListener('change', checkDarkMode);
+            observer.disconnect();
         };
     }, []);
 
