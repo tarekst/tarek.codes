@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: 'https://tarek.codes/'
+    transpilePackages: ['emoji-steg'],
+    //assetPrefix: 'https://tarek.codes/'
 };
 
 export default nextConfig;
