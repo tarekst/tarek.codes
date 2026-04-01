@@ -13,7 +13,7 @@ export default function Home() {
       <AnimatedBackground />
       <div id="profile" className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="flex justify-center">
-          <Card className="w-72 md:w-96">
+          <Card className="w-72 md:w-96 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 gradient-border-card">
             <Card.Header className="flex flex-col justify-center items-center">
               <img alt="Animated Avatar" src="./transparent_animated_avatar.gif"
                 className="text-large mt-5 mb-0 rounded-lg" width={100}/>
@@ -22,7 +22,7 @@ export default function Home() {
               <h1 className="text-3xl">Tarek Stei&#223;</h1>
               <div className="flex justify-center mt-8">
                 <Chip
-                  className="bg-gradient-to-br from-indigo-500 to-pink-500 border-small border-white/50 shadow-pink-500/30 shadow-md"
+                  className="bg-linear-to-br from-indigo-500 to-pink-500 border-small border-white/50 shadow-pink-500/30 shadow-md"
                 >
                   <span className="drop-shadow shadow-black text-white">Software Engineer</span>
                 </Chip>
@@ -48,8 +48,8 @@ export default function Home() {
         <div className="flex flex-col items-center mx-24">
           <h1 className="text-3xl">Current Projects</h1>
           <small className="mt-3 mb-0 max-w-80 md:max-w-140">These are some of mine private and public projects that I o work on in my spare time on.</small>
-          <div className="pt-8 flex flex-col items-center gap-3">
-            <Card className="w-80 md:w-125 lg:w-175">
+          <div className="pt-8 flex flex-col items-center gap-5">
+            <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
                 <div className="flex flex-row pl-3 w-full justify-between items-center">
                   <Link className="text-large text-foreground" href="https://github.com/tarekst/jar-explorer" target="_blank" rel="noopener noreferrer">
@@ -80,7 +80,7 @@ export default function Home() {
                 </div>
               </Card.Content>
             </Card>
-            <Card className="w-80 md:w-125 lg:w-175">
+            <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
                 <div className="flex flex-col pl-3">
                   <Link className="text-large text-foreground" href="https://github.com/WhiteBreachSecurity" target="_blank" rel="noopener noreferrer">
@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
               </Card.Content>
             </Card>
-            <Card className="w-80 md:w-125 lg:w-175">
+            <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
                 <div className="flex flex-row pl-3 w-full justify-between">
                   <Link
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
               </Card.Content>
             </Card>
-            <Card className="w-80 md:w-[500px] lg:w-[700px]">
+            <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
                 <div className="flex flex-col pl-3">
                   <Link className="text-large text-foreground">
