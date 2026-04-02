@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, Link, Chip, Separator} from "@heroui/react";
-import {ArchiveIcon, ClosedIcon, EyeOffIcon, OpenSourceIcon, ProgressIcon, ShieldIcon, TerminalIcon, UpArrowIcon} from "@/app/icons";
+import {ArchiveIcon, ClosedIcon, EyeOffIcon, GithubIcon, InstagramIcon, LinkedInIcon, OpenSourceIcon, ProgressIcon, ShieldIcon, TerminalIcon, UpArrowIcon} from "@/app/icons";
 import ScrollButton from "@/app/scroll-button";
 import Navigation from "@/app/navigation";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
@@ -29,14 +29,15 @@ export default function Home() {
               </div>
             </Card.Content>
             <Card.Footer className="flex justify-center mb-5">
-              <div className="flex gap-4">
-                <Link
-                  href="https://github.com/tarekst"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
-                  <Link.Icon />
+              <div className="flex gap-5">
+                <Link href="https://github.com/tarekst" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <GithubIcon size={24} />
+                </Link>
+                <Link href="https://www.linkedin.com/in/tarek-stei%C3%9F-299b1a290/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <LinkedInIcon size={24} />
+                </Link>
+                <Link href="https://www.instagram.com/tarek.steiss/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <InstagramIcon size={24} />
                 </Link>
               </div>
             </Card.Footer>
