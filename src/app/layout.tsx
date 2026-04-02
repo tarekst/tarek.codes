@@ -126,19 +126,17 @@ export default function RootLayout({
               }),
             }}
           />
-          {/* Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID and uncomment
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMS9M2KM83" />
           <script
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-XXXXXXXXXX');
+                gtag('config', 'G-PMS9M2KM83');
               `,
             }}
           />
-          */}
         </head>
         <body className={inter.className}>
           <Providers>
