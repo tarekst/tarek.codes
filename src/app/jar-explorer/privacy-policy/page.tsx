@@ -1,11 +1,21 @@
 import React from "react";
+import type {Metadata} from "next";
 import {Card, Link, Separator} from "@heroui/react";
 import Navigation from "@/app/navigation";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Privacy Policy - jar-explorer",
-  description: "Privacy Policy for the jar-explorer Claude Code Plugin",
+  description: "Privacy Policy for the jar-explorer Claude Code Plugin. No data collection, local processing only.",
+  openGraph: {
+    title: "Privacy Policy - jar-explorer",
+    description: "Privacy Policy for the jar-explorer Claude Code Plugin.",
+    url: "https://tarek.codes/jar-explorer/privacy-policy",
+    images: [{url: "/avatar_v2.png", width: 460, height: 460, alt: "Tarek Steiß"}],
+  },
+  alternates: {
+    canonical: "https://tarek.codes/jar-explorer/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicy() {
