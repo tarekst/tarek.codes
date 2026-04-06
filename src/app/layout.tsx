@@ -97,6 +97,17 @@ export default function RootLayout({
                     isAccessibleForFree: true,
                   },
                   {
+                    "@type": "SoftwareApplication",
+                    name: "prompt-brain",
+                    description:
+                      "Claude Code Plugin to analyze and optimize prompts through automated weakness detection, best-practice matching, and intelligent reconstruction.",
+                    url: "https://github.com/tarekst/prompt-brain",
+                    applicationCategory: "DeveloperApplication",
+                    operatingSystem: "Cross-platform",
+                    author: { "@id": `${SITE_URL}/#person` },
+                    isAccessibleForFree: true,
+                  },
+                  {
                     "@type": "Organization",
                     name: "WhiteBreach Security",
                     url: "https://github.com/WhiteBreachSecurity",
