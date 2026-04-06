@@ -83,6 +83,37 @@ export default function Home() {
             </Card>
             <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
+                <div className="flex flex-row pl-3 w-full justify-between items-center">
+                  <Link className="text-large text-foreground" href="https://github.com/tarekst/prompt-brain" target="_blank" rel="noopener noreferrer">
+                    prompt-brain
+                    <Link.Icon />
+                  </Link>
+                  <Link href="/prompt-brain/privacy-policy" className="text-xs text-default-400 flex items-center gap-1 hover:text-default-600 transition-colors">
+                    <ShieldIcon size={14} />
+                    Privacy Policy
+                  </Link>
+                </div>
+              </Card.Header>
+              <Separator/>
+              <Card.Content>
+                <p className="text-md text-default-500">
+                  Claude Code Plugin to analyze and optimize prompts through automated weakness detection, best-practice matching, and intelligent reconstruction.
+                </p>
+              </Card.Content>
+              <Separator/>
+              <Card.Content>
+                <div className="text-md text-default-500 flex gap-3 flex-wrap items-center justify-between">
+                  <div className="flex gap-3">
+                    <Chip color="success" variant="soft"><ProgressIcon size={17} />Active</Chip>
+                    <Chip color="default"><OpenSourceIcon size={15} />Open Source</Chip>
+                    <Chip className="bg-[#e07a2f] text-white border-small border-white/30"><TerminalIcon size={15} />Claude Code Plugin</Chip>
+                  </div>
+                  <span className="text-xs text-default-400">Created on Apr 06, 2026</span>
+                </div>
+              </Card.Content>
+            </Card>
+            <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
+              <Card.Header>
                 <div className="flex flex-col pl-3">
                   <Link className="text-large text-foreground" href="https://github.com/WhiteBreachSecurity" target="_blank" rel="noopener noreferrer">
                     WhiteBreach Security
