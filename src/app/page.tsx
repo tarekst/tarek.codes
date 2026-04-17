@@ -3,14 +3,14 @@ import {Card, Link, Chip, Separator} from "@heroui/react";
 import {ArchiveIcon, ClosedIcon, EyeOffIcon, GithubIcon, InstagramIcon, LinkedInIcon, OpenSourceIcon, ProgressIcon, ShieldIcon, TerminalIcon, UpArrowIcon} from "@/app/icons";
 import ScrollButton from "@/app/scroll-button";
 import Navigation from "@/app/navigation";
-import AnimatedBackground from "@/app/components/AnimatedBackground";
+import DotPatternBackground from "@/app/components/DotPatternBackground";
 import DemoButton from "@/app/components/DemoButton";
 
 export default function Home() {
   return (
     <main>
       <Navigation/>
-      <AnimatedBackground />
+      <DotPatternBackground />
       <div id="profile" className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="flex justify-center">
           <Card className="w-72 md:w-96 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 gradient-border-card">
@@ -173,9 +173,9 @@ export default function Home() {
             <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
                 <div className="flex flex-col pl-3">
-                  <Link className="text-large text-foreground">
+                  <span className="text-large text-foreground">
                     web-browsing-mcp-server
-                  </Link>
+                  </span>
                 </div>
               </Card.Header>
               <Separator/>
