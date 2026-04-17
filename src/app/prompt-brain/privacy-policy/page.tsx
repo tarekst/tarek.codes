@@ -2,7 +2,7 @@ import React from "react";
 import type {Metadata} from "next";
 import {Card, Link, Separator} from "@heroui/react";
 import Navigation from "@/app/navigation";
-import AnimatedBackground from "@/app/components/AnimatedBackground";
+import DotPatternBackground from "@/app/components/DotPatternBackground";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - prompt-brain",
@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
   return (
     <main>
       <Navigation />
-      <AnimatedBackground />
+      <DotPatternBackground />
       <div className="flex min-h-screen flex-col items-center justify-start pt-24 pb-16 px-4">
         <Card className="w-full max-w-3xl">
           <Card.Header className="flex flex-col items-start px-8 pt-8">

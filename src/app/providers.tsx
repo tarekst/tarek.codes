@@ -7,17 +7,24 @@ import { ThemeProvider as NextThemesProvider } from 'next-themes';
 // and HeroUI v3 / React Aria (PressResponder without pressable child)
 // See: https://github.com/pacocoursey/next-themes/issues/337
 if (typeof window !== 'undefined') {
+  const suppressedPatterns = [
+    'Encountered a script tag while rendering React component',
+    'PressResponder was rendered without a pressable child',
+    'A tree hydrated but some attributes of the server rendered HTML',
+  ];
+  const shouldSuppress = (args: unknown[]) => {
+    const msg = typeof args[0] === 'string' ? args[0] : '';
+    return suppressedPatterns.some((p) => msg.includes(p));
+  };
   const originalConsoleError = console.error;
   console.error = (...args: unknown[]) => {
-    const msg = typeof args[0] === 'string' ? args[0] : '';
-    if (
-      msg.includes('Encountered a script tag while rendering React component') ||
-      msg.includes('PressResponder was rendered without a pressable child') ||
-      msg.includes('A tree hydrated but some attributes of the server rendered HTML')
-    ) {
-      return;
-    }
+    if (shouldSuppress(args)) return;
     originalConsoleError.apply(console, args);
+  };
+  const originalConsoleWarn = console.warn;
+  console.warn = (...args: unknown[]) => {
+    if (shouldSuppress(args)) return;
+    originalConsoleWarn.apply(console, args);
   };
 }
 
