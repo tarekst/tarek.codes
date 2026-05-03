@@ -48,7 +48,7 @@ export default function Home() {
       <div id="current-projects" className="flex min-h-screen flex-col justify-between items-center p-24">
         <div className="flex flex-col items-center mx-24">
           <h1 className="text-3xl">Current Projects</h1>
-          <small className="mt-3 mb-0 max-w-80 md:max-w-140">These are some of mine private and public projects that I o work on in my spare time on.</small>
+          <small className="mt-3 mb-0 max-w-80 md:max-w-140">These are some of mine private and public projects that I do work on in my spare time on.</small>
           <div className="pt-8 flex flex-col items-center gap-5">
             <Card className="w-80 md:w-125 lg:w-175 bg-background/30 backdrop-blur-[2px] border-2 border-default-200 transition-transform duration-300 hover:-translate-y-1">
               <Card.Header>
